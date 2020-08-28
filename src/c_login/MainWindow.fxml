@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="c_login.MainWindowController">
+   <children>
+      <Label fx:id="lblMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="189.0" text="You have successfully logged in!!" textAlignment="CENTER" textFill="#27d021">
+         <font>
+            <Font name="HelveticaNeue-Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

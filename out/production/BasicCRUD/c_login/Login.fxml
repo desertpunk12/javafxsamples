@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="c_login.LoginController">
+   <children>
+      <AnchorPane layoutX="314.0" layoutY="72.0" prefHeight="257.0" prefWidth="253.0" style="-fx-background-color: #009faf;">
+         <children>
+            <TextField fx:id="txtUsername" layoutX="31.0" layoutY="54.0" prefHeight="35.0" prefWidth="191.0" promptText="Username" style="-fx-background-color: #009faf; -fx-border-color: #88ffff; -fx-border-width: 0 0 3 0; -fx-prompt-text-fill: #e0e0e0; -fx-font-family: Verdana; -fx-text-fill: #fafafa; -fx-font-size: 16;" />
+            <PasswordField fx:id="txtPassword" layoutX="31.0" layoutY="102.0" prefHeight="35.0" prefWidth="191.0" promptText="Password" style="-fx-background-color: #009faf; -fx-border-color: #88ffff; -fx-border-width: 0 0 3 0; -fx-font-family: Verdana; -fx-font-size: 16; -fx-text-fill: #fafafa; -fx-prompt-text-fill: #e0e0e0;" />
+            <Button layoutX="156.0" layoutY="156.0" mnemonicParsing="false" onAction="#tryLogin" style="-fx-background-color: #009faf;" text="Login" textAlignment="CENTER" textFill="#fafafa">
+               <font>
+                  <Font name="HelveticaNeue-Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label fx:id="lblError" layoutX="31.0" layoutY="211.0" prefHeight="17.0" prefWidth="174.0" text="Wrong Credentials!!" textFill="#c30a0a" visible="false">
+               <font>
+                  <Font name="JetBrains Mono Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

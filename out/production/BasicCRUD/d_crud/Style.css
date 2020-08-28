@@ -1,0 +1,109 @@
+.root {
+    -fx-background-color: #2d2d2d;
+}
+
+.titlebar_button:hover {
+    -fx-background-color: #d21271;
+}
+
+.titlebar_button:pressed {
+    -fx-background-color: #703070;
+}
+
+.titlebar_button {
+    -fx-background-color: #7e3f7e;
+    -fx-background-radius: 0;
+}
+
+.input_panel {
+    -fx-background-color: #8f2070;
+}
+
+.input_panel .text-field,
+.input_panel .label,
+.input_panel .radio-button,
+.input_panel .date-picker,
+#submit-button{
+    -fx-text-fill: #fff;
+    -fx-prompt-text-fill: #b0b0b0;
+    -fx-background-color: #8f2070;
+    -fx-background-radius: 0;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: #d21271;
+}
+
+
+#submit-button:hover{
+    -fx-background-color: #d21271;
+}
+#submit-button:pressed{
+    -fx-background-color: #801161;
+}
+.input_panel .date-picker .text-field {
+    -fx-border-width: 0;
+    -fx-text-fill: #fff;
+}
+
+.date-picker-popup .calendar-grid{
+    -fx-background-color: #8f2070;
+    -fx-text-fill: #fff;
+}
+
+.date-picker-popup {
+    -fx-background-color: #d21271;
+    -fx-text-fill: #fff;
+}
+
+.date-picker-popup .month-year-pane {
+    -fx-background-color: #8f2070;
+    -fx-text-fill: #fff;
+}
+
+.input_panel .date-picker .arrow-button {
+    /*-fx-background-color: #8f2070;*/
+    -fx-text-fill: #fff;
+    -fx-background-color: #d21271;
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
+.input_panel .date-picker .arrow-button:hover {
+    -fx-background-color: #f23291;
+}
+
+.input_panel .date-picker .arrow-button:hover {
+    -fx-background-color: #d21271;
+}
+
+.input_panel .date-picker .arrow-button:pressed {
+    -fx-background-color: #801161;
+}
+
+.table-view {
+    -fx-background-color: #8f2070;
+    -fx-text-fill: #fff;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: #d21271;
+}
+
+.table-view .label {
+    -fx-text-fill: #fff;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #8f2070;
+    -fx-text-fill: #fff;
+}
+
+
+.table-view .table-cell {
+    -fx-text-fill: #fff;
+}
+
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #561644;
+}
+
